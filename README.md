@@ -24,7 +24,7 @@ validating data
 SUCCESS validated all 32 bytes
 total time elapsed: 0.04s
 ```
-Performing a ```memdump``` command with the upper address set to 47 prints the first 48 bytes of the memory. The bytes from the original hex file are confirmed written to addresses [0000-001f].
+Performing a ```memdump``` command with the upper address set to 47 prints the first 48 bytes of the memory. The bytes from the original hex file are confirmed written to addresses [0000-001f]. The other printed 16 bytes remain unprogrammed and equal to zero from the last time the EEPROM was fully reset.
 ```Bash
 $ python3 programmer.py memdump --upper-address 47
 > connected to arduino at port /dev/ttyACM0
