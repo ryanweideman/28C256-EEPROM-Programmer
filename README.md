@@ -51,6 +51,3 @@ $ python3 programmer.py read-byte --address 12345
 
 [3039] ff
 ```
-
-## Commands
-## Schematics
